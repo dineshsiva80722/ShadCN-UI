@@ -1,8 +1,7 @@
 import './App.css'
 // import { Avatar } from './components/ui/avatar'
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Calendar } from "@/components/ui/calendar"
-import React from 'react'
+
 import { Button } from "@/components/ui/button"
 import image from './assets/image-removebg-preview.png'
 import jsimg from './assets/js.png'
@@ -10,24 +9,12 @@ import tsimg from './assets/ts.png'
 import blenderimg from './assets/blender.png'
 import logo from './assets/logo.jpg'
 import bgimage from './assets/heropage_illuraration-removebg-preview.png'
-
+import { Input } from "@/components/ui/input"
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
 } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select"
+
 
 
 import {
@@ -40,12 +27,11 @@ import {
 
 import {
   Menubar,
-  MenubarCheckboxItem,
+
   MenubarContent,
   MenubarItem,
   MenubarMenu,
-  MenubarRadioGroup,
-  MenubarRadioItem,
+
   MenubarSeparator,
   MenubarShortcut,
   MenubarSub,
@@ -53,7 +39,6 @@ import {
   MenubarSubTrigger,
   MenubarTrigger,
 } from "@/components/ui/menubar"
-import { CalendarDays } from "lucide-react"
 
 
 
@@ -67,7 +52,6 @@ import {
   Dialog,
   DialogContent,
   DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
